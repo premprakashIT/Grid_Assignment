@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>Grid Assignment</title>
+    <style>
+        section{
+            /* display: grid;
+            grid-template-columns: 3fr 6fr 3fr; */
+            height: 500px;
+        }
+        header,footer{
+            font-size: 180%;
+            background-color: tomato;
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+        }
+        header{
+            grid-row: 1;
+            grid-column: 1/4;
+        }
+        section{
+            grid-row: 2;
+            grid-column: 1/4;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+
+
+        }
+        footer{
+            grid-row: 3;
+            grid-column: 1/4;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header><h1>Online Shoping</h1></header>
+    <section>
+        <nav>
+            <ul>
+                <li>Electronics</li>
+                <li>Footwear</li>
+                <li>Cloth of KID</li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Shop | Online</h2>
+            <p>Special Offer on Electronics</p>
+        </main>
+        <aside>
+            50% OFF
+        </aside>
+
+    </section>
+    <footer>
+        <p>&copy; copyright</p>
+    </footer>
+    
+    </div>
+</body>
+</html>
